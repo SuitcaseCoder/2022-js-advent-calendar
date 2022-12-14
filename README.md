@@ -7,50 +7,57 @@ Welcome to the 2022 Coding Algorithm Advent Calendar. During the winter break, i
 - recursion
 - string manipulation
 - array manipulation
+- loops
+- functions and/or methods
+
+
+## Ideas:
+- pick your poison: javaScript, Java, or both!
+- practice pseudo-coding
+- practice talking as you code (yes, out loud even if it feels awkward)
 - 
 
 
-## How it Works:
 
-
-___
-
-___
-___
-
-
-## Day 1
+## Day 1: Max Characters
 ___
 ### Topics covered: 
 - Arrays
 - Dictionaries
-- 
-
-### Problem: Max Characters
-
- >Given a string of characters, return the character that appears the most often.
 
 
- > INPUT: 
-> 
- > EXPECTED OUTPUT:
+ ### Given a string of characters, return the character that appears the most often.
 
 
-### Resources
-- 
+ > INPUT: `"winter wonderland"`
+>
+ > EXPECTED OUTPUT: `n` -> because the letter 'n' appears 3 times, which is more than any other letter in "winter wonderland";
 
 
-[thanks to this medium article](https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038)
 
 
-## Day 2
+## Day 2: Array Chunking
 ___ 
+### Topics covered:
+- Arrays
+- Loops
+- Array Methods
 
-#### Problem: Array Chunking
-Given an array and a size, split the array items into a list of arrays of the given size.
+
+### Given an array and a size, split the array items into a list of arrays of the given size.
+
+###### Examples:
+> INPUT: array: `[2,6,4,6,9,0,1]` size: `3` 
+> 
+> EXPECTED OUTPUT: `[[2,6,4], [6,9,0], [1]]`
+
+> INPUT: array: `[2,6,4,6,9,0,17,2,6,9,4,4,2,7,6]` size: `5`
+> 
+> EXPECTED OUTPUT: `[[2,6,4,6,9], [0,17,2,6,9], [4,4,2,7,6]]`
+
+
 #### Resources:
 
-[thanks to this medium article](https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038)
 
 
 ## Day 3
@@ -71,3 +78,8 @@ ___
 
 #### Problem:
 #### Resources:
+
+
+---
+[thanks to this medium article](https://medium.com/siliconwat/algorithms-in-javascript-b0bed68f4038)
+
